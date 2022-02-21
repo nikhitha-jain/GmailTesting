@@ -1,0 +1,8 @@
+Feature:  Login Gmail Account. 
+Given:  I am a Gmail user. 
+When: I enter email as email. 
+And I enter the password as the password 
+Then I should be redirected to the home page of gmail
+And I select compose mail and send it 
+Then I Should be able to send the email
+Then I can logout of mail 
